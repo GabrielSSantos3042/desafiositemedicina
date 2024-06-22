@@ -1,0 +1,149 @@
+/* Estilo do body e da wrapper para fundo preto */
+body, .wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto total */
+    color: #FFFFFF; /* Texto branco por padrão */
+    height: 100vh;
+}
+
+/* Estilo do wrapper */
+.wrapper {
+    display: flex;
+}
+
+/* Estilo do menu lateral */
+.menu {
+    width: 200px; /* Largura do menu lateral */
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha o texto à esquerda */
+    padding-left: 20px; /* Adiciona padding à esquerda */
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    white-space: normal; /* Permite quebras de linha */
+    line-height: 1.5; /* Aumenta a altura da linha */
+    border: 2px solid #808080; /* Adiciona bordas cinza */
+}
+
+.menu ul li a:hover {
+    background-color: #00796b;
+    color: #f1f1f1;
+}
+
+/* Centralizar a imagem do logotipo no header e definir o tamanho */
+.header {
+    background-color: #000000; /* Fundo preto no header */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: inline-block;
+}
+
+.header-container .logo {
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+/* Estilo da main para ocupar o espaço restante */
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo do conteúdo */
+.content {
+    padding: 20px;
+    background-color: #000000; /* Fundo preto para o conteúdo */
+    color: #FFFFFF; /* Texto branco para contraste */
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #0400ff; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fde402; /* Cor dos links ao passar o mouse */
+}
+.form {
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    white-space: normal; /* Permite quebras de linha */
+    line-height: 1.5; /* Aumenta a altura da linha */
+    border: 2px solid #808080; /* Adiciona bordas cinza */
+}
+.form li {
+    padding: 10px;
+}
+.table {
+    
+    
+        width: 100%; /* Define a largura da tabela */
+        border-collapse: collapse; /* Remove espaçamento entre as células */
+        margin-bottom: 20px; /* Adiciona margem abaixo da tabela */
+    }
+
+    th, td {
+        padding: 10px; /* Adiciona espaçamento interno nas células */
+        text-align: left; /* Alinha o texto à esquerda nas células */
+        border-bottom: 1px solid #ddd; /* Adiciona borda inferior para separar as linhas */
+    }
+
+    th {
+        background-color: #1d1c1c; /* Cor de fundo para cabeçalho da tabela */
+    }
